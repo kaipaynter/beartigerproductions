@@ -10,7 +10,6 @@ const Header = props => (
     
     <div className="content">
       <div className="inner">
-        <h1>BearTiger Productions</h1>
         <p>
           Founded in 2015 BearTiger Productions is an artist-driven production
           company that develops and produces music, film, theatre, television,

@@ -19,6 +19,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "setup": "npm install",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "clean": "gatsby clean",
