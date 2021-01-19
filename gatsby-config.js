@@ -20,5 +20,4 @@ module.exports = {
     },
     'gatsby-plugin-sass',
   ],
-  pathPrefix: "/beartigerproductions",
 }
