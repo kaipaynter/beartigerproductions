@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import mission from '../images/mission.jpg'
 import crew from '../images/crew.jpg'
+import crew2 from '../images/crew2.jpeg'
 import clapperboard from '../images/clapperboard.jpg'
 import wannacoffeelogo from '../images/wannacoffeelogo.jpg'
 
@@ -38,7 +39,10 @@ class Main extends React.Component {
             diverse, fresh, and relatable. Content, that not only entertains but
             inspires. Using a range of mediums, for its creative expression,
             their aim is to tell the greatest story and share it across the
-            globe. Working with talent who range from well known to unknown,
+            globe. 
+            <br />
+            <br />
+            Working with talent who range from well known to unknown,
             seasoned to novice but mostly, creatives who are on the pulse and
             cutting edge of their craft. They are impassioned storytellers, who
             unapologetically bring a truthful reflection of the world around
@@ -59,21 +63,9 @@ class Main extends React.Component {
           <span className="image main">
             <img src={crew} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <span className="image main">
+            <img src={crew2} alt="" />
+          </span>
           {close}
         </article>
 

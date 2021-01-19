@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import mainIcon from '../images/mainIcon.jpeg'
+import logo2 from '../images/logo2.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -18,7 +19,7 @@ const Header = props => (
           flair and buzzing energy…Someplace, somewhere it’s 7 am!
           <br />
           <br />
-          From American writers and producers to Australian and UK execs, the
+          From American writers and producers to Australian and South African execs, the
           team prides itself on giving you something a little different from the
           “norm”.
           <br />
