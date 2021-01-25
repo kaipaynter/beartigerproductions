@@ -3,8 +3,11 @@ import React from 'react'
 import mission from '../images/mission.jpg'
 import crew from '../images/crew.jpg'
 import crew2 from '../images/crew2.jpeg'
+import crew3 from '../images/crew3.jpg'
 import clapperboard from '../images/clapperboard.jpg'
-import wannacoffeelogo from '../images/wannacoffeelogo.jpg'
+import wannacoffee from '../images/wannacoffee.jpg'
+import pulsecity from '../images/pulsecity.png'
+import kinkypolitics from '../images/kinkypolitics.jpg'
 
 class Main extends React.Component {
   render() {
@@ -61,6 +64,9 @@ class Main extends React.Component {
         >
           <h2 className="major">The Crew</h2>
           <span className="image main">
+            <img src={crew3} alt="" />
+          </span>
+          <span className="image main">
             <img src={crew} alt="" />
           </span>
           <span className="image main">
@@ -77,20 +83,30 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-          <p>For all project info, click for details...</p>
-          <span className="image main">
-            <a href="https://www.instagram.com/beartiger.productions/">
-              <img src={clapperboard} alt="" />
-            </a>
-          </span>
           <p>
             Wanna Coffee? Podcast
             <br /> 
             Thursdays at 10am AEST/Wednesdays at 8pm EST
           </p>
           <span className="image main">
-            <a href="https://www.youtube.com/playlist?list=PLzXFzLvgInhiSfY4-r8PVP2wZNKcgMx4m">
-              <img src={wannacoffeelogo} alt="" />
+            <a href="https://youtube.com/playlist?list=PLzXFzLvgInhjSB1Cq0Gg04p1t83RuEPDD">
+              <img src={wannacoffee} alt="" />
+            </a>
+          </span>
+          <p>
+            Pulse City
+          </p>
+          <span className="image main">
+            <a href="https://youtube.com/playlist?list=PLzXFzLvgInhj_M0qmmD96Ekck7MCNgHTi">
+              <img src={pulsecity} alt="" />
+            </a>
+          </span>
+          <p>
+            Kinky Politics
+          </p>
+          <span className="image main">
+            <a href="https://youtube.com/playlist?list=PLzXFzLvgInhhwHYgT3qOR-RspZxbQ0ngK">
+              <img src={kinkypolitics} alt="" />
             </a>
           </span>
           {close}
