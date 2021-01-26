@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import mission from '../images/mission.jpg'
+import mission2 from '../images/mission2.jpg'
 import crew from '../images/crew.jpg'
-import crew2 from '../images/crew2.jpeg'
+import crew2 from '../images/crew2.jpg'
 import crew3 from '../images/crew3.jpg'
-import clapperboard from '../images/clapperboard.jpg'
 import wannacoffee from '../images/wannacoffee.jpg'
 import pulsecity from '../images/pulsecity.png'
 import kinkypolitics from '../images/kinkypolitics.jpg'
@@ -35,7 +34,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Mission Statement</h2>
           <span className="image main">
-            <img src={mission} alt="" />
+            <img src={mission2} alt="Mission" />
           </span>
           <p>
             BearTiger Productions is committed to cultivating content that is
@@ -85,28 +84,26 @@ class Main extends React.Component {
           <h2 className="major">Projects</h2>
           <p>
             Wanna Coffee? Podcast
-            <br /> 
-            Thursdays at 10am AEST/Wednesdays at 8pm EST
           </p>
           <span className="image main">
             <a href="https://youtube.com/playlist?list=PLzXFzLvgInhjSB1Cq0Gg04p1t83RuEPDD">
-              <img src={wannacoffee} alt="" />
+              <img src={wannacoffee} alt="Wanna Coffee Podcast" />
             </a>
           </span>
           <p>
-            Pulse City
+            Pulse City TV Show
           </p>
           <span className="image main">
             <a href="https://youtube.com/playlist?list=PLzXFzLvgInhj_M0qmmD96Ekck7MCNgHTi">
-              <img src={pulsecity} alt="" />
+              <img src={pulsecity} alt="Pulse City TV Show" />
             </a>
           </span>
           <p>
-            Kinky Politics
+            Kinky Politics TV Show
           </p>
           <span className="image main">
             <a href="https://youtube.com/playlist?list=PLzXFzLvgInhhwHYgT3qOR-RspZxbQ0ngK">
-              <img src={kinkypolitics} alt="" />
+              <img src={kinkypolitics} alt="Kinky Politics TV Show" />
             </a>
           </span>
           {close}
@@ -168,6 +165,8 @@ class Main extends React.Component {
               </a>
             </li>
           </ul>
+          <h3>Locations</h3>
+          <p>Sydney, Australia 2130  &  Los Angeles, CA 90002</p>
           {close}
         </article>
       </div>
