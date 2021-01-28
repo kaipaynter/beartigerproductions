@@ -48,7 +48,7 @@ class Main extends React.Component {
             seasoned to novice but mostly, creatives who are on the pulse and
             cutting edge of their craft. They are impassioned storytellers, who
             unapologetically bring a truthful reflection of the world around
-            them, give a platform to the voices who have yet to be heard, and
+            them, give a platform to the voices who have yet to be heard and
             dare to dream whilst doing it.
           </p>
           {close}
@@ -166,7 +166,17 @@ class Main extends React.Component {
             </li>
           </ul>
           <h3>Locations</h3>
-          <p>Sydney, Australia 2130  &  Los Angeles, CA 90002</p>
+          <div>
+            Sydney, Australia
+            <br></br>
+            2130
+          </div>
+          <br />
+          <div>
+            Los Angeles, CA
+            <br></br>
+            90002
+          </div>
           {close}
         </article>
       </div>
