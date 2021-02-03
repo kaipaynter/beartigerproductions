@@ -27,9 +27,11 @@
     "clean": "gatsby clean",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "branchCleanup": "git branch -d gh-pages && git push origin --delete gh-pages",
-    "branchSetup": "git checkout -b gh-pages && git push --set-upstream origin gh-pages",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "branchCleanup": "git branch -d gh-pages",
+    "branchSetup": "git checkout -b gh-pages",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "reset": "git checkout master",
+    "deploy:full": "npm run branchCleanup && npm run branchSetup && npm run deploy && npm run reset"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
