@@ -4,9 +4,7 @@ import mission2 from '../images/mission2.jpg'
 import crew from '../images/crew.jpg'
 import crew2 from '../images/crew2.jpg'
 import crew3 from '../images/crew3.jpg'
-import wannacoffee from '../images/wannacoffee.jpg'
-import pulsecity from '../images/pulsecity.png'
-import kinkypolitics from '../images/kinkypolitics.jpg'
+import projectspic from '../images/projectspic.jpg'
 
 class Main extends React.Component {
   render() {
@@ -82,30 +80,55 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-          <p>
-            Wanna Coffee? Podcast
-          </p>
           <span className="image main">
-            <a href="https://youtube.com/playlist?list=PLzXFzLvgInhjSB1Cq0Gg04p1t83RuEPDD">
-              <img src={wannacoffee} alt="Wanna Coffee Podcast" />
-            </a>
+            <img src={projectspic} alt="" />
           </span>
-          <p>
-            Pulse City TV Show
-          </p>
-          <span className="image main">
-            <a href="https://youtube.com/playlist?list=PLzXFzLvgInhj_M0qmmD96Ekck7MCNgHTi">
-              <img src={pulsecity} alt="Pulse City TV Show" />
-            </a>
-          </span>
-          <p>
-            Kinky Politics TV Show
-          </p>
-          <span className="image main">
-            <a href="https://youtube.com/playlist?list=PLzXFzLvgInhhwHYgT3qOR-RspZxbQ0ngK">
-              <img src={kinkypolitics} alt="Kinky Politics TV Show" />
-            </a>
-          </span>
+          
+          <br />
+
+          <ul className="icons">
+            <li>
+              <a
+                href="https://twitter.com/BearTigerInfo"
+                className="icon fa-twitter"
+              >
+                <span className="label">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/beartigerproductions"
+                className="icon fa-facebook"
+              >
+                <span className="label">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/beartiger.productions"
+                className="icon fa-instagram"
+              >
+                <span className="label">Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCezckIi_wKkArCT_lKOjDcg"
+                className="icon fa-youtube"
+              >
+                <span className="label">YouTube</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/beartigerproductions/about"
+                className="icon fa-linkedin"
+              >
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+          </ul>
+
           {close}
         </article>
 
