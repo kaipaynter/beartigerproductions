@@ -39,12 +39,12 @@ class Main extends React.Component {
             diverse, fresh, and relatable. Content, that not only entertains but
             inspires. Using a range of mediums, for its creative expression,
             their aim is to tell the greatest story and share it across the
-            globe. 
+            globe.
             <br />
             <br />
-            Working with talent who range from well known to unknown,
-            seasoned to novice but mostly, creatives who are on the pulse and
-            cutting edge of their craft. They are impassioned storytellers, who
+            Working with talent who range from well known to unknown, seasoned
+            to novice but mostly, creatives who are on the pulse and cutting
+            edge of their craft. They are impassioned storytellers, who
             unapologetically bring a truthful reflection of the world around
             them, give a platform to the voices who have yet to be heard and
             dare to dream whilst doing it.
@@ -83,8 +83,8 @@ class Main extends React.Component {
           <span className="image main">
             <img src={projectspic} alt="" />
           </span>
-          
-          <br />
+
+          <p>Stay up to date on what we’re doing....</p>
 
           <ul className="icons">
             <li>
