@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Bear Tiger Productions',
+    title: 'BearTiger Productions',
     author: 'Beepa',
-    description: 'Bear Tiger Productions',
+    description: 'BearTiger Productions',
   },
   plugins: [
     {

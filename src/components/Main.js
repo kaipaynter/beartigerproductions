@@ -35,19 +35,18 @@ class Main extends React.Component {
             <img src={mission2} alt="Mission" />
           </span>
           <p>
-            BearTiger Productions is committed to cultivating content that is
-            diverse, fresh, and relatable. Content, that not only entertains but
-            inspires. Using a range of mediums, for its creative expression,
-            their aim is to tell the greatest story and share it across the
-            globe.
+            BearTiger Productions is committed to cultivating diverse, fresh,
+            and relatable content. Using a range of mediums for its creative
+            expression, their aim is to tell the greatest story and share it
+            across the globe, to not only entertain but inspire.
             <br />
             <br />
-            Working with talent who range from well known to unknown, seasoned
-            to novice but mostly, creatives who are on the pulse and cutting
-            edge of their craft. They are impassioned storytellers, who
-            unapologetically bring a truthful reflection of the world around
-            them, give a platform to the voices who have yet to be heard and
-            dare to dream whilst doing it.
+            Working with talent who range from well-known to unknown, seasoned
+            to the novice but mostly, creatives who are on the cutting edge of
+            their craft. They are impassioned storytellers, who unapologetically
+            bring a truthful reflection of the world around them, give a
+            platform to the voices who have yet to be heard, and dare to dream
+            whilst doing it.
           </p>
           {close}
         </article>
@@ -84,13 +83,15 @@ class Main extends React.Component {
             <img src={projectspic} alt="" />
           </span>
 
-          <p>Stay up to date on what we’re doing....</p>
+          <p>Stay up-to-date on what we’re doing....</p>
 
           <ul className="icons">
             <li>
               <a
                 href="https://twitter.com/BearTigerInfo"
                 className="icon fa-twitter"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="label">Twitter</span>
               </a>
@@ -99,6 +100,8 @@ class Main extends React.Component {
               <a
                 href="https://www.facebook.com/beartigerproductions"
                 className="icon fa-facebook"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="label">Facebook</span>
               </a>
@@ -107,6 +110,8 @@ class Main extends React.Component {
               <a
                 href="https://www.instagram.com/beartiger.productions"
                 className="icon fa-instagram"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="label">Instagram</span>
               </a>
@@ -115,6 +120,8 @@ class Main extends React.Component {
               <a
                 href="https://www.youtube.com/channel/UCezckIi_wKkArCT_lKOjDcg"
                 className="icon fa-youtube"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="label">YouTube</span>
               </a>
@@ -123,6 +130,8 @@ class Main extends React.Component {
               <a
                 href="https://www.linkedin.com/company/beartigerproductions/about"
                 className="icon fa-linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="label">LinkedIn</span>
               </a>
