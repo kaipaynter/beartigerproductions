@@ -2,12 +2,12 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import logotight from '../images/logotight.jpg'
 
-const Header = props => (
+const Header = (props) => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo"> 
-        <img className="logo" src={logotight} alt="" />
+    <div className="logo">
+      <img className="logo" src={logotight} alt="Logo" />
     </div>
-    
+
     <div className="content">
       <div className="inner">
         <p>
@@ -18,12 +18,17 @@ const Header = props => (
           flair and buzzing energy…Someplace, somewhere it’s 7 am!
           <br />
           <br />
-          From American writers and producers to Australian and South African execs, the
-          team prides itself on giving you something a little different from the
-          “norm”.
+          From American writers and producers to Australian and South African
+          execs, the team prides itself on giving you something a little
+          different from the “norm”.
           <br />
           <br />
           BearTiger Productions is adventurous, promising, and real.
+          <br />
+          <br />
+          We at BearTiger Productions, are part of Radio Commercial Production,
+          TV Production, Music Video Production, and Film Production companies
+          in Los Angeles (USA) and Australia.
         </p>
       </div>
     </div>
