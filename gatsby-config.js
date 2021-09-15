@@ -3,6 +3,7 @@ module.exports = {
     title: 'BearTiger Productions',
     author: 'Beepa',
     description: 'BearTiger Productions',
+    siteUrl: 'https://beartigerproductions.com',
   },
   plugins: [
     {
@@ -44,5 +45,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-robots-txt',
   ],
 }
