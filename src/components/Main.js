@@ -1,10 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import mission2 from '../images/mission2.jpg'
-import crew from '../images/crew.jpg'
-import crew2 from '../images/crew2.jpg'
-import crew3 from '../images/crew3.jpg'
-import projectspic from '../images/projectspic.jpg'
+import { StaticImage } from 'gatsby-plugin-image'
 
 class Main extends React.Component {
   render() {
@@ -32,7 +28,11 @@ class Main extends React.Component {
         >
           <h2 className="major">Mission Statement</h2>
           <span className="image main">
-            <img src={mission2} alt="Mission" />
+            <StaticImage
+              src="../images/mission2.jpg"
+              alt="Mission"
+              placeholder="blurred"
+            />
           </span>
           <p>
             BearTiger Productions is committed to cultivating diverse, fresh,
@@ -60,13 +60,25 @@ class Main extends React.Component {
         >
           <h2 className="major">The Crew</h2>
           <span className="image main">
-            <img src={crew3} alt="" />
+            <StaticImage
+              src="../images/crew3.jpg"
+              alt="Crew 1"
+              placeholder="blurred"
+            />
           </span>
           <span className="image main">
-            <img src={crew} alt="" />
+            <StaticImage
+              src="../images/crew.jpg"
+              alt="Mission"
+              placeholder="blurred"
+            />
           </span>
           <span className="image main">
-            <img src={crew2} alt="" />
+            <StaticImage
+              src="../images/crew2.jpg"
+              alt="Mission"
+              placeholder="blurred"
+            />
           </span>
           {close}
         </article>
@@ -80,7 +92,11 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
           <span className="image main">
-            <img src={projectspic} alt="" />
+            <StaticImage
+              src="../images/projectspic.jpg"
+              alt="Projects"
+              placeholder="blurred"
+            />
           </span>
 
           <p>Stay up-to-date on what we’re doing....</p>

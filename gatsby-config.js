@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'BearTiger Productions',
+    title: 'BearTiger Productions - From The Film Production Companies In Los Angeles',
     author: 'Beepa',
     description: 'BearTiger Productions',
     siteUrl: 'https://beartigerproductions.com',
@@ -47,5 +47,8 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-robots-txt',
+    'gatsby-plugin-image',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
   ],
 }
