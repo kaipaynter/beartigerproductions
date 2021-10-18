@@ -37,7 +37,7 @@ const Layout = ({ children, location }) => {
               {
                 name: 'description',
                 content:
-                  'BearTiger Productions - Amongst the film production companies in Los Angeles and Australian TV production companies. Also see our Kai Paynter and Paynter Performance websites',
+                  'BearTiger Productions - Amongst the film production companies in Los Angeles and Australian TV production companies, we are one of the best. Also see our Kai Paynter and Paynter Performance websites.',
               },
               {
                 name: 'keywords',
