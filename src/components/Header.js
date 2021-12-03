@@ -11,7 +11,7 @@ const Header = (props) => (
     <div className="content">
       <div className="inner">
         <p>
-          Founded in 2015 BearTiger Productions is an artist-driven production
+          Founded in 2015, BearTiger Productions is an artist-driven production
           company that develops and produces music, film, theatre, television,
           radio, and digital content. BearTiger Productions has a dedicated team
           of professionals from across the world giving it an international
@@ -24,11 +24,6 @@ const Header = (props) => (
           <br />
           <br />
           BearTiger Productions is adventurous, promising, and real.
-          <br />
-          <br />
-          We at BearTiger Productions, are part of Radio Commercial Production,
-          TV Production, Music Video Production, and Film Production companies
-          in Los Angeles (USA) and Australia.
         </p>
       </div>
     </div>
