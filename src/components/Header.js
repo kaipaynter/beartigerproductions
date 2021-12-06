@@ -24,6 +24,11 @@ const Header = (props) => (
           <br />
           <br />
           BearTiger Productions is adventurous, promising, and real.
+          <p className="hidden">
+            We atBearTiger Productions, are part of Radio Commercial Production,
+            TV Production, Music Video Production, and Film Production companies
+            in Los Angeles (USA) and Australia.
+          </p>
         </p>
       </div>
     </div>
