@@ -61,22 +61,22 @@ class Main extends React.Component {
           <h2 className="major">The Crew</h2>
           <span className="image main">
             <StaticImage
-              src="../images/crew3.jpg"
-              alt="Crew 1"
+              src="../images/crew4.jpg"
+              alt="Crew 3"
               placeholder="blurred"
             />
           </span>
           <span className="image main">
             <StaticImage
               src="../images/crew.jpg"
-              alt="Mission"
+              alt="Crew"
               placeholder="blurred"
             />
           </span>
           <span className="image main">
             <StaticImage
               src="../images/crew2.jpg"
-              alt="Mission"
+              alt="Crew 2"
               placeholder="blurred"
             />
           </span>
