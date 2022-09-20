@@ -49,6 +49,7 @@ module.exports = {
     'gatsby-plugin-robots-txt',
     'gatsby-plugin-image',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-recaptcha',
     'gatsby-plugin-sharp',
     {
       resolve: `gatsby-source-filesystem`,

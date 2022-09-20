@@ -178,6 +178,7 @@ class Main extends React.Component {
               <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
+            <div class="g-recaptcha" data-sitekey="6LemoxQiAAAAABBTmQBzw2WD13L3RACKV6RuGcjS" />
             <ul className="actions">
               <li>
                 <input type="submit" value="Send Message" className="special" />
