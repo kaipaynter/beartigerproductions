@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://beartigerproductions.com/sitemap/sitemap-index.xml
+Sitemap: https://beartigerproductions.com/sitemap-index.xml
 Host: https://beartigerproductions.com
