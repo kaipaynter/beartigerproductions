@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import logotight from '../images/logotight.jpg'
+import logo from '../images/transparent_white_PIC_N_BT.png'
 
 const Header = (props) => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <img className="logo" src={logotight} alt="Logo" />
+      <img className="logo" src={logo} alt="Logo" />
     </div>
 
     <div className="content">
