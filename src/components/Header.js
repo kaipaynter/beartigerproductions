@@ -49,7 +49,7 @@ const Header = (props) => (
               props.onOpenArticle('thecrew')
             }}
           >
-            The Crew
+            The Americas
           </button>
         </li>
         <li>

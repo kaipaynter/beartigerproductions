@@ -21,9 +21,8 @@ class Main extends React.Component {
       >
         <article
           id="missionstatement"
-          className={`${
-            this.props.article === 'missionstatement' ? 'active' : ''
-          } ${this.props.articleTimeout ? 'timeout' : ''}`}
+          className={`${this.props.article === 'missionstatement' ? 'active' : ''
+            } ${this.props.articleTimeout ? 'timeout' : ''}`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Mission Statement</h2>
@@ -53,12 +52,11 @@ class Main extends React.Component {
 
         <article
           id="thecrew"
-          className={`${this.props.article === 'thecrew' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'thecrew' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">The Crew</h2>
+          <h2 className="major">The Americas</h2>
           <span className="image main">
             <StaticImage
               src="../images/crew4.jpg"
@@ -85,9 +83,8 @@ class Main extends React.Component {
 
         <article
           id="projects"
-          className={`${this.props.article === 'projects' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
@@ -100,6 +97,7 @@ class Main extends React.Component {
           </span>
 
           <p>Stay up-to-date on what we’re doing....</p>
+          <p>To submit to The Americas or for further information, please submit directly through the <strong><a href='https://theamericas.beartigerproductions.com/' target="_blank" rel="noopener noreferrer">website</a></strong> or use the contact box.</p>
 
           <ul className="icons">
             <li>
@@ -159,9 +157,8 @@ class Main extends React.Component {
 
         <article
           id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
