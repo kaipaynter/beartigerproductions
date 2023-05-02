@@ -97,7 +97,7 @@ class Main extends React.Component {
           </span>
 
           <p>Stay up-to-date on what we’re doing....</p>
-          <p>To submit to The Americas or for further information, please submit directly through the <strong><a href='https://theamericas.beartigerproductions.com/' target="_blank" rel="noopener noreferrer">website</a></strong> or use the contact box.</p>
+          <p>To submit to The Americas or for further information, please submit directly through the <strong><a href='https://theamericas.beartigerproductions.com/' target="_blank" rel="noopener noreferrer">website</a></strong> or use the contact form.</p>
 
           <ul className="icons">
             <li>

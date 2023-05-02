@@ -4,9 +4,9 @@ import logo from '../images/transparent_white_PIC_N_BT.png'
 
 const Header = (props) => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
+    {/* <div className="logo">
       <img className="logo" src={logo} alt="Logo" />
-    </div>
+    </div> */}
 
     <div className="content">
       <div className="inner">
