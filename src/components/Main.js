@@ -60,11 +60,11 @@ class Main extends React.Component {
           <span className="image main">
             <StaticImage
               src="../images/crew4.jpg"
-              alt="Crew 3"
+              alt="The Americas"
               placeholder="blurred"
             />
           </span>
-          <span className="image main">
+          {/* <span className="image main">
             <StaticImage
               src="../images/crew.jpg"
               alt="Crew"
@@ -77,7 +77,7 @@ class Main extends React.Component {
               alt="Crew 2"
               placeholder="blurred"
             />
-          </span>
+          </span> */}
           {close}
         </article>
 
