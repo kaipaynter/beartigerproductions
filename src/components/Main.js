@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
+import { Link } from 'gatsby'
 
 class Main extends React.Component {
   render() {
@@ -57,13 +58,20 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">The Americas</h2>
-          <span className="image main">
-            <StaticImage
-              src="../images/crew4.jpg"
-              alt="The Americas"
-              placeholder="blurred"
-            />
-          </span>
+
+          <Link
+            to="https://theamericas.beartigerproductions.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="image main">
+              <StaticImage
+                src="../images/americas.jpg"
+                alt="The Americas"
+                placeholder="blurred"
+              />
+            </span>
+          </Link>
           {/* <span className="image main">
             <StaticImage
               src="../images/crew.jpg"
