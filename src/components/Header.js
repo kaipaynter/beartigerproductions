@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import logo from '../images/transparent_white_PIC_N_BT.png'
+import logo from '../images/transparent_white.png'
 
 const Header = (props) => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -49,7 +49,7 @@ const Header = (props) => (
               props.onOpenArticle('thecrew')
             }}
           >
-            The Crew
+            The Americas
           </button>
         </li>
         <li>

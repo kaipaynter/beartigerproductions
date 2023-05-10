@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
+import { Link } from 'gatsby'
 
 class Main extends React.Component {
   render() {
@@ -21,9 +22,8 @@ class Main extends React.Component {
       >
         <article
           id="missionstatement"
-          className={`${
-            this.props.article === 'missionstatement' ? 'active' : ''
-          } ${this.props.articleTimeout ? 'timeout' : ''}`}
+          className={`${this.props.article === 'missionstatement' ? 'active' : ''
+            } ${this.props.articleTimeout ? 'timeout' : ''}`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Mission Statement</h2>
@@ -53,20 +53,26 @@ class Main extends React.Component {
 
         <article
           id="thecrew"
-          className={`${this.props.article === 'thecrew' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'thecrew' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">The Crew</h2>
-          <span className="image main">
-            <StaticImage
-              src="../images/crew4.jpg"
-              alt="Crew 3"
-              placeholder="blurred"
-            />
-          </span>
-          <span className="image main">
+          <h2 className="major">The Americas</h2>
+
+          <Link
+            to="https://theamericas.beartigerproductions.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="image main">
+              <StaticImage
+                src="../images/americas.jpg"
+                alt="The Americas"
+                placeholder="blurred"
+              />
+            </span>
+          </Link>
+          {/* <span className="image main">
             <StaticImage
               src="../images/crew.jpg"
               alt="Crew"
@@ -79,15 +85,14 @@ class Main extends React.Component {
               alt="Crew 2"
               placeholder="blurred"
             />
-          </span>
+          </span> */}
           {close}
         </article>
 
         <article
           id="projects"
-          className={`${this.props.article === 'projects' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
@@ -100,6 +105,7 @@ class Main extends React.Component {
           </span>
 
           <p>Stay up-to-date on what we’re doing....</p>
+          <p>To submit to The Americas or for further information, please submit directly through the <strong><a href='https://theamericas.beartigerproductions.com/' target="_blank" rel="noopener noreferrer">website</a></strong> or use the contact form.</p>
 
           <ul className="icons">
             <li>
@@ -159,9 +165,8 @@ class Main extends React.Component {
 
         <article
           id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
