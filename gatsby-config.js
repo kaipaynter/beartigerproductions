@@ -50,7 +50,15 @@ module.exports = {
     'gatsby-plugin-image',
     'gatsby-transformer-sharp',
     'gatsby-plugin-recaptcha',
-    'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {},
+        //failOn: `none`,
+        useMozJpeg: false,
+        stripMetadata: true
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

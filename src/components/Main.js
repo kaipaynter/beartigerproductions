@@ -66,9 +66,10 @@ class Main extends React.Component {
           >
             <span className="image main">
               <StaticImage
-                src="../images/americas.jpg"
+                src="https://shorturl.at/uCIKS"
                 alt="The Americas"
                 placeholder="blurred"
+                objectFit='contain'
               />
             </span>
           </Link>
