@@ -73,20 +73,6 @@ class Main extends React.Component {
               />
             </span>
           </Link>
-          {/* <span className="image main">
-            <StaticImage
-              src="../images/crew.jpg"
-              alt="Crew"
-              placeholder="blurred"
-            />
-          </span>
-          <span className="image main">
-            <StaticImage
-              src="../images/crew2.jpg"
-              alt="Crew 2"
-              placeholder="blurred"
-            />
-          </span> */}
           {close}
         </article>
 
