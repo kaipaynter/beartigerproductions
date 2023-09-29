@@ -66,7 +66,7 @@ class Main extends React.Component {
           >
             <span className="image main">
               <StaticImage
-                src="https://shorturl.at/uCIKS"
+                src="../images/theamericas.webp"
                 alt="The Americas"
                 placeholder="blurred"
               />
