@@ -45,7 +45,7 @@
   "devDependencies": {
     "gh-pages": "^6.1.1",
     "prettier": "^3.3.3",
-    "sass": "^1.77.8"
+    "sass": "^1.78.0"
   },
   "repository": {
     "type": "git",
