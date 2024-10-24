@@ -43,7 +43,7 @@
     "deploy:full": "npm run branchSetup && npm run deploy && npm run reset && npm run branchCleanup "
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.2.0",
     "prettier": "^3.3.3",
     "sass": "^1.79.2"
   },
