@@ -5,7 +5,7 @@
   "author": "Boipelo Mawasha",
   "homepage": "https://beartigerproductions.com/",
   "dependencies": {
-    "acorn": "^8.14.0",
+    "acorn": "^8.14.1",
     "babel-eslint": "^10.1.0",
     "gatsby": "^5.14.1",
     "gatsby-plugin-google-gtag": "^5.13.1",
@@ -22,7 +22,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "typescript": "^5.6.3",
+    "typescript": "^5.8.2",
     "yaml": "^2.7.0"
   },
   "keywords": [
@@ -43,9 +43,9 @@
     "deploy:full": "npm run branchSetup && npm run deploy && npm run reset && npm run branchCleanup "
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0",
-    "prettier": "^3.3.3",
-    "sass": "^1.80.4"
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.5.3",
+    "sass": "^1.86.0"
   },
   "repository": {
     "type": "git",
