@@ -27,7 +27,7 @@
     "react-helmet": "^6.1.0",
     "resolve-url-loader": "^5.0.0",
     "typescript": "^5.8.2",
-    "yaml": "^2.7.0"
+    "yaml": "^2.7.1"
   },
   "keywords": [
     "gatsby"
