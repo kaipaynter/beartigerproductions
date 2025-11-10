@@ -8,18 +8,20 @@ on:
     types: [completed]
 jobs:
   deploy:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     # Only go ahead with the job if CI completed successfully (i.e. tests passed).
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       # Checkout project source
       - name: Checkout source
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
       # Install Node.js dependency
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: "20.16.0"
           cache: "npm"
       # Install package.json dependencies
       - name: Install
