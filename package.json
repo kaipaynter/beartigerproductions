@@ -5,7 +5,7 @@
   "author": "Boipelo Mawasha",
   "homepage": "https://beartigerproductions.com/",
   "dependencies": {
-    "acorn": "^8.14.1",
+    "acorn": "^8.15.0",
     "babel-eslint": "^10.1.0",
     "cookie": "^1.0.2",
     "gatsby": "^5.15.0",
