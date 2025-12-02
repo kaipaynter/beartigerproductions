@@ -27,7 +27,7 @@
     "react-helmet": "^6.1.0",
     "resolve-url-loader": "^5.0.0",
     "typescript": "^5.9.3",
-    "yaml": "^2.8.1",
+    "yaml": "^2.8.2",
     "multer": "^2.0.2"
   },
   "keywords": [
