@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.1",
     "sass": "^1.97.1"
   },
   "repository": {
