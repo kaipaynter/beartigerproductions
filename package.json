@@ -21,7 +21,7 @@
     "gatsby-source-filesystem": "^5.16.0",
     "gatsby-transformer-sharp": "^5.16.0",
     "path-to-regexp": "^8.4.2",
-    "postcss": "^8.5.19",
+    "postcss": "^8.5.22",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-helmet": "^6.1.0",
