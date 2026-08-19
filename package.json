@@ -23,7 +23,7 @@
     "path-to-regexp": "^8.4.2",
     "postcss": "^8.5.23",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "react-dom": "^19.2.8",
     "react-helmet": "^6.1.0",
     "resolve-url-loader": "^5.0.0",
     "typescript": "^7.0.2",
