@@ -22,7 +22,7 @@
     "gatsby-transformer-sharp": "^5.16.0",
     "multer": "^2.2.0",
     "path-to-regexp": "^8.4.2",
-    "postcss": "^8.5.23",
+    "postcss": "^8.5.26",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-helmet": "^6.1.0",
