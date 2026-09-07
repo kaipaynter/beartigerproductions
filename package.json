@@ -50,7 +50,7 @@
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "prettier": "^3.9.6",
-    "sass": "^1.103.1"
+    "sass": "^1.104.0"
   },
   "overrides": {
     "msgpackr": "^1.10.2"
